@@ -6,7 +6,7 @@ describe('Pruebas en 02-template-string',()=>{
         expect(saludo).toBe(`Hola ${nombre}`)
     })
     test('prueba en get saludo sin argumento', () => {
-        console.log(getSaludo())
+        // console.log(getSaludo())
         expect(getSaludo()).toBe('Hola Fernando');
     })
     

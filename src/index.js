@@ -6,4 +6,4 @@ import CounterApp from './CounterApp'
 
 const root = document.getElementById('root');
 
-ReactDOM.render(<CounterApp value={34} />, root)
+ReactDOM.render(<CounterApp value={0} />, root)
